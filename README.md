@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Perkville is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://perkville.com/
+Perkville provides a customer loyalty and referral platform that helps brands and businesses engage members, automate referrals, and reward actions. The SaaS solution integrates with point‑of‑sale, membership, and CRM systems, offering features like points, challenges, multilingual support, and detailed reporting. It serves industries such as fitness, hospitality, and non‑profits, enabling enterprises to boost retention, increase revenue, and turn customers into brand advocates through a flexible, mobile‑friendly interface.
+
+**Areas:** Loyalty · SaaS · Customer-Engagement · Referral-Program · Marketing
+
+## Perkville on APIs.io
+
+Everything profiled for Perkville is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/perkville/](https://apis.io/providers/perkville/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Perkville API](https://apis.io/apis/perkville/perkville-api-2/) — Perkville offers a loyalty and referral platform with a developer API documented at the Perkville Docs site.
+- [Perkville API](https://apis.io/apis/perkville/perkville-api/) — Perkville API as documented publicly: 51 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV2ChallengesViewResponse](https://apis.io/schemas/perkville/perkville-get-v2-challenges-view-response/)
+- [GetV2ConnectionLevelProgressResponse](https://apis.io/schemas/perkville/perkville-get-v2-connection-level-progress-response/)
+- [GetV2LevelsViewResponse](https://apis.io/schemas/perkville/perkville-get-v2-levels-view-response/)
+- [GetV2LocationsLocationidResponse](https://apis.io/schemas/perkville/perkville-get-v2-locations-locationid-response/)
+- [GetV2RedeemingResponse](https://apis.io/schemas/perkville/perkville-get-v2-redeeming-response/)
+- [PostV2PerksResponse](https://apis.io/schemas/perkville/perkville-post-v2-perks-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Perkville Context](https://apis.io/jsonld/perkville/perkville-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Perkville API Rules](https://apis.io/rules/perkville/perkville-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Perkville Authentication](https://apis.io/security/perkville/perkville-authentication/)
+- [Perkville Domain Security](https://apis.io/security/perkville/perkville-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Perkville Plans Pricing](https://apis.io/plans/perkville/perkville-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://perkville.com/)
+- [Documentation](https://docs.perkville.com/)
+- [Getting started](https://docs.perkville.com/features/settings/location-setup)
+- [API reference](https://www.perkville.com/developers/docs/v2/)
+- [Pricing](https://docs.perkville.com/overview/pricing)
+- [Support](https://docs.perkville.com/overview/support)
+- [Changelog](https://docs.perkville.com/overview/release-notes)
+- [Blog](https://info.perkville.com/blog)
+- [Security](https://info.perkville.com/security)
+- [Terms of service](https://www.perkville.com/terms)
+- [Privacy policy](https://info.perkville.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.1** — strong · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 73.2 |
+
+**Agent readiness 37.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/perkville/](https://apis.io/providers/perkville/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Perkville: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/perkville/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
